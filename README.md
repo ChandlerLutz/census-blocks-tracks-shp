@@ -10,5 +10,5 @@ Census block, block group, and tract shape files
   - `geometry` -- an `sfc_MULTIPOLYGON`
 	- Load the R `sf` package before using
 - Notes: 
-  - Each rds file holds a `data.table` (load with `library(data.table)`, so that they can be easily combined with `data.table::rbindlist()`
+  - Each rds file holds a `data.table` (load with `library(data.table)`), so that they can be easily combined with `data.table::rbindlist()`
   
